@@ -1,0 +1,7 @@
+- id: markdown-link-check
+  name: markdown-link-check
+  description: Run markdown-link-check to check all the relative and absolute links in markdown docs.
+  entry: hooks/mdlink-check.sh
+  language: script
+  files: \.md$
+  exclude: vendor\/.*$
