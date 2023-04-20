@@ -31,7 +31,7 @@ cat > "$TMP_CONFIG" <<EOF
       "pattern": "^#"
     },
     {
-        "pattern": "^https://github.com/thestakeholdercompany/.*
+        "pattern": "^https://github.com/thestakeholdercompany/.*"
     }
   ]  
 }
